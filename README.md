@@ -6,9 +6,9 @@
 
 ## Screenshot 🖼️
 
-[<img alt='codePlayground' src="https://raw.githubusercontent.com/ManuelMaciel/codePlayground/master/build/img/img1.png">]
+<img alt='codePlayground' src="https://raw.githubusercontent.com/ManuelMaciel/codePlayground/master/build/img/img1.png">
 </br >
-[<img alt='codePlayground' src="https://raw.githubusercontent.com/ManuelMaciel/codePlayground/master/build/img/img2.png">]
+<img alt='codePlayground' src="https://raw.githubusercontent.com/ManuelMaciel/codePlayground/master/build/img/img2.png">
 [Link del pen](https://codepen.io/virgilpana/pen/aObdPv)
 
 ### Hecho con
