@@ -1,52 +1,47 @@
 <p align="center">
-  <img src="build/icons/128x128.png" width="128px" height="128px"/>
-  <br>
-  <b>CodePad</b><br>
-  <i>An Offline Front-End Development Playground</i><br><br>
-  <a href="https://github.com/feross/standard">
-    <img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" />
-  </a>
-  <a href="https://raw.githubusercontent.com/thecodepad/codepad/master/LICENSE"> 
-    <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" />
-  </a>
+  <b>codePlayground</b><br>
+  <i>Front-End Development Playground, like Codepen</i><br><br>
   <br><br>
 </p>
 
->  **NEW: Save your snippets!**
-
-__CodePad__ instantly previews your code so you don't have to run back and forth between an editor and a browser. You can also add your favorite icon fonts, libraries and frameworks such as Font Awesome, anime.js and Bootstrap with a click. And the best of it all, everything works offline.
-
 ## Screenshot 🖼️
 
-[<img alt='CodePad' src="https://thecodepad.github.io/img/codepad-screenshot.png?raw=true">](https://thecodepad.github.io)
+[<img alt='codePlayground' src="https://raw.githubusercontent.com/ManuelMaciel/codePlayground/master/build/img/img1.png">]
+</br >
+[<img alt='codePlayground' src="https://raw.githubusercontent.com/ManuelMaciel/codePlayground/master/build/img/img2.png">]
+[Link del pen](https://codepen.io/virgilpana/pen/aObdPv)
 
+### Hecho con
 
-## Installation 💻
+* [React](https://es.reactjs.org)
+* [Electron](https://www.electronjs.org)
 
-Download CodePad for Windows [here](https://github.com/Jay9596/CodePad/releases/download/v1.1-beta/CodePad.rar). Extract and run CodePad.exe. Coming Soon for Ubuntu and macOS.
+### Prerequisitos
 
-## Run From Source 🎩
-
-You can run the app via command line by following these steps:
-
+* npm
+```sh
+npm install npm@latest -g
 ```
-$ git clone https://github.com/thecodepad/codepad.git
-$ cd codepad
-$ npm install
-$ npm start
+
+### Instalación
+
+1. Clonar el repositorio
+```sh
+git clone https://github.com/ManuelMaciel/codePlayground.git
+```
+2. Instalar los paquetes
+```sh
+npm install
 ```
 
-> Please note that 'Save' will not work here.
+## Lista que hacer 🌈
 
-## Dev To-Do List 🌈
+- [ ] Editor reescalable
+- [ ] cambiar la apariencia
+- [ ] Importar más librerias
+- [ ] Ver la salida del codigo fullscreen
 
-- [x] Save the code snippet
-- [ ] Resizeable editor
-- [ ] Editor themes/appearance settings
-- [ ] Preprocessor support
-- [ ] Import custom libs
-- [ ] View output in fullscreen/browser
 
-## Credits 👨
+## Licencia
 
-Designed and developed by: [@apollonian11](https://www.github.com/apollonian11) and [@jay9596](https://www.github.com/jay9596)
+Distributed under the MIT License. See `LICENSE` for more information.
