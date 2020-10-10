@@ -1,0 +1,28 @@
+{
+  "name": "codepad",
+  "version": "0.1.1",
+  "description": "codepen offline playground for front end development",
+  "productName": "CodePad",
+  "main": "./app/",
+  "scripts": {
+    "start": "electron ./app/",
+    "build:win32": "electron-packager . CodePad --app-bundle-id=codepad --overwrite --asar=true --platform=win32 --arch=ia32 --icon=build/icon.ico --prune=true --out=dist --version-string.ProductName=CodePad --version-string.FileDescription=CodePad",
+    "build:win64": "electron-packager . CodePad --app-bundle-id=codepad --overwrite --asar=true --platform=win32 --arch=x64 --icon=build/icon.ico --prune=true --out=dist --version-string.ProductName=CodePad --version-string.FileDescription=CodePad"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelMaciel"
+  },
+  "keywords": [
+    "electron",
+    "front-end",
+    "editor"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron": "^1.6.1",
+    "electron-packager": "^8.5.2",
+    "standard": "^9.0.0"
+  }
+}

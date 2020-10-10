@@ -1,0 +1,24 @@
+{
+  "name": "codepad",
+  "version": "0.1.1",
+  "description": "codepen offline playground for front end development",
+  "productName": "CodePad",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelMaciel"
+  },
+  "keywords": [
+    "electron",
+    "front-end",
+    "editor"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.6.1",
+    "standard": "^9.0.0"
+  }
+}
